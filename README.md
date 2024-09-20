@@ -2,6 +2,9 @@
 Library project owned by me crafted and fine tuned for Spotter.ai
 
 
+[![CodeQL](https://github.com/sifykarippery/spotter-bookverse/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/sifykarippery/spotter-bookverse/actions/workflows/codeql.yml)
+
+[![black-flake8-isort-hooks](https://github.com/sifykarippery/spotter-bookverse/actions/workflows/black-flake8-isort-hooks.yml/badge.svg)](https://github.com/sifykarippery/spotter-bookverse/actions/workflows/black-flake8-isort-hooks.yml)
 
 ### Setting Up Project
 
