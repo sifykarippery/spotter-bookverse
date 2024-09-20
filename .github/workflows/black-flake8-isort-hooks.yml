@@ -10,10 +10,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - uses: actions/setup-python@v3
+
+    # Install Python 3.11 explicitly
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v3
+      with:
+        python-version: 3.11
+
     - name: Cache virtualenv
       uses: actions/cache@v3.0.3
       with:
         path: ~/.virtualenvs
         key: ${{ runner.os }}-venv-${{ hashFiles('**/requirements.*') }}
+
     - uses: pre-commit/action@v2.0.3
