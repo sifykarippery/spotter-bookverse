@@ -22,7 +22,7 @@ Library project owned by me crafted and fine tuned for Spotter.ai
 
 ```
 
-4. Install & Setup Project 
+4. Install & Setup Project
 
 ```
     django-admin startproject bookverse
@@ -47,7 +47,7 @@ ApiPassword: apiUser@123
 }
 
 
-5. Test your code always with 
-black 
+5. Test your code always with
+black
 isort
-flake8 
+flake8
